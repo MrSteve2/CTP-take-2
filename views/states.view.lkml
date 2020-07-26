@@ -56,10 +56,6 @@ view: states {
     sql: ${TABLE}.deathIncrease ;;
   }
 
-  measure: death_increase_7day {
-    type: max
-    sql:  mean(offset_list(${TABLE}.deathIncrease,0,7))  ;;
-  }
 
   measure: death_probable {
     type: max
