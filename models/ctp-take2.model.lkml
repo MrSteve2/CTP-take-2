@@ -11,3 +11,5 @@ datagroup: ctp_take2_default_datagroup {
 persist_with: ctp_take2_default_datagroup
 
 explore: states {}
+
+explore: city_data{}
