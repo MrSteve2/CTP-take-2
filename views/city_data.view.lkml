@@ -8,17 +8,17 @@ view: city_data {
   }
 
   measure: cases_aian {
-    type: number
+    type: max
     sql: ${TABLE}.Cases_AIAN ;;
   }
 
   measure: cases_asian {
-    type: number
+    type: max
     sql: ${TABLE}.Cases_Asian ;;
   }
 
   measure: cases_black {
-    type: number
+    type: max
     sql: ${TABLE}.Cases_Black ;;
   }
 
