@@ -22,7 +22,7 @@ view: city_data {
     sql: ${TABLE}.Cases_Black ;;
   }
 
-  measure: cases_ethnicity_hispanic {
+  dimension: cases_ethnicity_hispanic {
     type: number
     sql: ${TABLE}.Cases_Ethnicity_Hispanic ;;
   }
